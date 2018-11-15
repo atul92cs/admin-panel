@@ -5,7 +5,7 @@ var bodyParser=require('body-parser');
 var routes=require('./routes');
 var app=express();
 var port=process.env.PORT||3001;
-app.set('views', __dirname + '/Views');
+app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({
     extended: false

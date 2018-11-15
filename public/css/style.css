@@ -10,77 +10,36 @@ body {
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
 }
-h1
-{
-    color: white;
-}
+
 #particles-js
 {
   background:white;
   height:98vh;
+ 
 }
 #form-section
 {
-    margin-top:25vh;
-    margin-left:75vh;
+    
+    position: absolute;
+    position: absolute;
     background:#fff;
     opacity:0.8;
-
     border:#ccc 2px solid;
-    position:absolute;
-    position:absolute;
+    margin-left: 45vh;
+    margin-right: 10vh;
+    margin-top: 25vh;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    width: 55vh;
 }
 #logo-section
 {
-    height: 25vh;
+   height: 25vh;
     width: 75vh;
-    margin-left: 200vh;
+    margin-left: 130vh;
     margin-top: 35vh;
-     position:absolute;
     position:absolute;
-}
-#logo-section h1
-{
-    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace; 
-    color: #FF00FF;
-    opacity: none;
-    
-}
-#logo-section p
-{
-   font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter
-    opacity: none;
-}
-#logo-section h2
-{
-    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
-}
-#logo-section h2 span 
-{
-    color: #0000FF 	;
-    opacity: none;
-    font-family: Papyrus, serif;
-}
-#form-section input
-{
-    height:9.5vh;
-    padding-top:3vh;
-    padding-bottom:3vh;
-    width: 55vh;
-}
-/*#form-section input[name="name"],#form-section input[name="email"],#form-section input[name="password"],#form-section input[name="conpassword"]
-{
-    /*padding-bottom: 2em;*/
-  /*  margin-bottom:0.8em;
-    margin-top: 0.8em;
-    margin-left: 0.8em;
-    margin-right: 0.8em;
-    text-align: justify;
-   /* padding-top: 2em;*/
-}*/
-/*#form-section input[name="sumbit-button"]
-{
-    text-align:center;
-    margin-left: 0.8em;
-    margin-bottom: 0.5em;
+    position:absolute;
 }

@@ -43,3 +43,22 @@ body {
     position:absolute;
     position:absolute;
 }
+#logo-section h2
+{
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+}
+#logo-section h2 span 
+{
+    color: #0000FF 	;
+    opacity: none;
+    font-family: Papyrus, serif;
+    text-transform: uppercase;
+}
+#logo-section h1
+{
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace; 
+    color: #FF00FF;
+    opacity: none;
+    font-weight: bold;
+    
+}

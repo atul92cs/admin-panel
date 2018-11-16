@@ -1,0 +1,62 @@
+#main-body
+{
+  background:white;
+  height:98vh;
+  display:flex !important;
+  flex-direction: row;
+}
+#form-section
+{
+    flex:30%;
+    align-items: center;
+     padding-left: 10vh;
+    padding-right: 3vh;
+    background: #E6E6FA;
+     height: 100vh;
+   
+}
+#logo-section
+{
+    flex:70%;
+    display: block;
+    background: #BA55D3;
+    height: 100vh;
+}
+#particles-js
+{
+    height: 99vh;
+}
+#form
+{
+    background:white;
+    /*opacity:0.8;*/
+    border:#ccc 2px solid;
+    margin-top: 15vh;
+    padding: 3vh 3vh 3vh;
+     margin-right: 3vh;
+    border-radius: 10px;
+}
+#form h1, #form h2 
+{
+    text-align: center;
+   
+    padding-bottom: 2vh;
+}
+#form h1 
+{
+     font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+}
+#form h2
+{
+     font-family: Papyrus, serif;
+}
+#footer
+{
+    text-align: center;
+    font-size: 3vh;
+    margin: 5vh;
+}
+#footer h4
+{
+    padding-top: 3vh;
+}

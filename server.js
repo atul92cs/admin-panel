@@ -14,6 +14,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
 app.get('/',routes.home);
+app.get('/home',routes.home2);
 app.listen(port, () => {
     console.log('server started on' + ' ' + port);
 });
